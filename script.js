@@ -170,3 +170,4 @@ function checkWinner() {
         window.close()
         location.reload()
     }
+
