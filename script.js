@@ -84,7 +84,7 @@ function checkWinner() {
     if (qayl == result.length ** 2) {
         winnerWindow.classList.add('active');
         winnerText.innerHTML = ' Draw ';
-        winnerText.innerHTML += ' <i class="fa-solid fa-face-smile">&#128513;</i> '
+        winnerText.innerHTML += ' <i class="fa-solid fa-face-smile"></i> '
 
     }
     for (var i = 0; i < result.length; i++) {
@@ -94,14 +94,14 @@ function checkWinner() {
                 countX++;
                 if (result.length == countX) {
                     winnerWindow.classList.add('active');
-                    winnerText.innerHTML = ` <i class="fa-solid fa-trophy">&#128513;</i> Winner is X `;
+                    winnerText.innerHTML = ` <i class="fa-solid fa-trophy"></i> Winner is X `;
                 }
             } else if (result[i][j].innerHTML == '0') {
                 countY++;
     
                 if (result.length == countY) {
                     winnerWindow.classList.add('active');
-                    winnerText.innerHTML = ` <i class="fa-solid fa-trophy">&#128513;</i> Winner is 0 `;
+                    winnerText.innerHTML = ` <i class="fa-solid fa-trophy"></i> Winner is 0 `;
                 }
             }
         }
