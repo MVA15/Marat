@@ -11,9 +11,21 @@
     display: flex;
     justify-content: center;
     height: 100vh;
-    background: rgb(229, 229, 229);
+    background: rgb(43, 40, 226);
+    
+    background: linear-gradient(227deg, #1126dd, #17eb22, #1dd6ee);
+    background-size: 600% 600%;
+    
+        
+    animation: AnimationName 30s ease infinite;
     }
     
+    @keyframes AnimationName {
+        0%{background-position:0% 99%}
+        50%{background-position:100% 2%}
+        100%{background-position:0% 99%}
+    }
+
     .area {
     margin: 6rem auto;
     text-align: center;
@@ -21,7 +33,7 @@
     
     .area .title {
     font-size: 3rem;
-    color: rgb(1, 1, 90);
+    color: rgb(229, 245, 9);
     text-align: center;
     padding: .6rem 1.4rem;
     border-radius: .8rem;
@@ -32,14 +44,14 @@
     margin: 10rem auto;
     padding: 1.2rem 2rem;
     font-size: 1.2rem;
-    box-shadow: 0 .1rem .2rem rgb(0, 0, 0, .7);
-    color: rgb(1, 1, 90);
+    box-shadow: 0 .1rem .2rem rgba(195, 236, 11, 0.8);
+    color: rgb(18, 227, 235);
     border-radius: 1.2rem;
     cursor: pointer;
     background-image: linear-gradient(to right,
-    #314755 0%,
-    #26a0da 51%,
-    #314755 100%)
+    #bae73f 0%,
+    #f70707 51%,
+    #bae73f 100%)
     }
     
     
@@ -64,7 +76,7 @@
     font-size: 1.4rem;
     text-align: center;
     margin-bottom: .2rem;
-    color: #fff;
+    color: rgb(27, 216, 37);
     }
     
     
@@ -82,7 +94,7 @@
     margin-bottom: 1.4rem;
     border-radius: .8rem;
     color: rgb(1, 1, 90);
-    border: .1rem solid rgb(1, 1, 90);
+    border: .1rem solid rgb(31, 164, 204);
     }
     
     .modal input[type=submit]:hover {
@@ -97,10 +109,10 @@
     width: 50px;
     height: 50px;
     line-height: 50px;
-    border: .1rem solid rgb(1, 1, 90);
+    border: .1rem solid rgb(215, 238, 11);
     font-size: 2.5rem;
     text-align: center;
-    color: rgb(1, 1, 90);
+    color: rgb(188, 228, 43);
     }
     
     
@@ -124,9 +136,9 @@
     
     .btn_restart {
     background-image: linear-gradient(to right,
-    #314755 0%,
-    #26a0da 51%,
-    #314755 100%)
+    #1f0dc5 0%,
+    #2cec12 51%,
+    #1f0dc5 100%)
     }
     
     .btn_restart:hover {
@@ -137,9 +149,9 @@
     
     .btn_quit {
     background-image: linear-gradient(to right,
-    #d31027 0%,
-    #5c0711 61%,
-    #ea384d 80%);
+    #dae90a 0%,
+    #f10c27 51%,
+    #dae90a 100%);
     }
     
     .btn_quit:hover {
@@ -162,9 +174,9 @@
     
     .winner h2 {
     font-size: 2rem;
-    background: linear-gradient(#314755 0%,
-    #7fbfde 51%,
-    #314755 100%);
+    background: linear-gradient(#1cdfe6 0%,
+    #09f1bf 51%,
+    #1cdfe6 100%);
     padding: 1.8rem 2.2rem;
     margin: 2rem;
     border-radius: 1.2rem;
